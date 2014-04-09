@@ -1,0 +1,17 @@
+1.安裝node.js
+
+2.照著這流程跑 來安裝
+http://shoogledesigns.com/blog/blog/2013/07/18/automate-the-generation-of-your-style-guides-with-kss-node/
+
+3.先跑sass後,再把匯出來的css檔案進行覆蓋
+
+
+
+kss-node sass styleguide --sass sass --template template
+
+    這資料夾的Sass / styleguide      客製化資樣板   樣板資料夾名稱
+
+
+
+抓得樣板
+https://github.com/htanjo/kss-node-template
