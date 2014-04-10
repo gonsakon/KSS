@@ -3947,7 +3947,7 @@ select[multiple].input-lg,
   right: 15px;
 }
 
-/* line 19, ../sass/bootstrap/_buttons.scss */
+/* line 20, ../sass/bootstrap/_buttons.scss */
 .btn-default, .btn-primary, .btn-success, .btn-waring {
   display: inline-block;
   margin-bottom: 0;
@@ -3967,25 +3967,25 @@ select[multiple].input-lg,
   -ms-user-select: none;
   user-select: none;
 }
-/* line 35, ../sass/bootstrap/_buttons.scss */
+/* line 36, ../sass/bootstrap/_buttons.scss */
 .btn-default:focus, .btn-primary:focus, .btn-success:focus, .btn-waring:focus, .btn-default:active:focus, .btn-primary:active:focus, .btn-success:active:focus, .btn-waring:active:focus, .active.btn-default:focus, .active.btn-primary:focus, .active.btn-success:focus, .active.btn-waring:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-/* line 41, ../sass/bootstrap/_buttons.scss */
+/* line 42, ../sass/bootstrap/_buttons.scss */
 .btn-default:hover, .btn-primary:hover, .btn-success:hover, .btn-waring:hover, .btn-default:focus, .btn-primary:focus, .btn-success:focus, .btn-waring:focus {
   color: white;
   text-decoration: none;
 }
-/* line 47, ../sass/bootstrap/_buttons.scss */
+/* line 48, ../sass/bootstrap/_buttons.scss */
 .btn-default:active, .btn-primary:active, .btn-success:active, .btn-waring:active, .active.btn-default, .active.btn-primary, .active.btn-success, .active.btn-waring {
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 55, ../sass/bootstrap/_buttons.scss */
+/* line 56, ../sass/bootstrap/_buttons.scss */
 .disabled.btn-default, .disabled.btn-primary, .disabled.btn-success, .disabled.btn-waring, [disabled].btn-default, [disabled].btn-primary, [disabled].btn-success, [disabled].btn-waring, fieldset[disabled] .btn-default, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-success, fieldset[disabled] .btn-waring {
   cursor: not-allowed;
   pointer-events: none;
@@ -3995,64 +3995,64 @@ select[multiple].input-lg,
   box-shadow: none;
 }
 
-/* line 75, ../sass/bootstrap/_buttons.scss */
+/* line 76, ../sass/bootstrap/_buttons.scss */
 .btn-default {
   color: white;
   background-color: gray;
   border-color: gray;
 }
 
-/* line 75, ../sass/bootstrap/_buttons.scss */
+/* line 76, ../sass/bootstrap/_buttons.scss */
 .btn-primary {
   color: white;
   background-color: #428bca;
   border-color: #428bca;
 }
 
-/* line 75, ../sass/bootstrap/_buttons.scss */
+/* line 76, ../sass/bootstrap/_buttons.scss */
 .btn-success {
   color: white;
   background-color: #5cb85c;
   border-color: #5cb85c;
 }
 
-/* line 75, ../sass/bootstrap/_buttons.scss */
+/* line 76, ../sass/bootstrap/_buttons.scss */
 .btn-waring {
   color: white;
   background-color: red;
   border-color: red;
 }
 
-/* line 124, ../sass/bootstrap/_buttons.scss */
+/* line 125, ../sass/bootstrap/_buttons.scss */
 .btn-link {
   color: #428bca;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
 }
-/* line 133, ../sass/bootstrap/_buttons.scss */
+/* line 134, ../sass/bootstrap/_buttons.scss */
 .btn-link, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 140, ../sass/bootstrap/_buttons.scss */
+/* line 141, ../sass/bootstrap/_buttons.scss */
 .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
   border-color: transparent;
 }
-/* line 144, ../sass/bootstrap/_buttons.scss */
+/* line 145, ../sass/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
   color: #2a6496;
   text-decoration: underline;
   background-color: transparent;
 }
-/* line 152, ../sass/bootstrap/_buttons.scss */
+/* line 153, ../sass/bootstrap/_buttons.scss */
 .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
   color: #999999;
   text-decoration: none;
 }
 
-/* line 163, ../sass/bootstrap/_buttons.scss */
+/* line 164, ../sass/bootstrap/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 18px;
@@ -4060,7 +4060,7 @@ select[multiple].input-lg,
   border-radius: 6px;
 }
 
-/* line 167, ../sass/bootstrap/_buttons.scss */
+/* line 168, ../sass/bootstrap/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
@@ -4068,7 +4068,7 @@ select[multiple].input-lg,
   border-radius: 3px;
 }
 
-/* line 171, ../sass/bootstrap/_buttons.scss */
+/* line 172, ../sass/bootstrap/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 12px;
@@ -4076,7 +4076,7 @@ select[multiple].input-lg,
   border-radius: 3px;
 }
 
-/* line 179, ../sass/bootstrap/_buttons.scss */
+/* line 180, ../sass/bootstrap/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
@@ -4084,12 +4084,12 @@ select[multiple].input-lg,
   padding-right: 0;
 }
 
-/* line 187, ../sass/bootstrap/_buttons.scss */
+/* line 188, ../sass/bootstrap/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
 
-/* line 195, ../sass/bootstrap/_buttons.scss */
+/* line 196, ../sass/bootstrap/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
