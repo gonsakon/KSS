@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="generator" content="kss-node" />
     <link rel="stylesheet" href="public/kss.css" />
-    <link rel="stylesheet" href="public/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <!--[if lt IE 9]>
     <script src="public/html5shiv.js"></script>
     <![endif]-->
@@ -17,13 +17,13 @@
       <div class="kss-sidebar">
         <div class="kss-sidebar-inner">
           <header class="kss-header">
-            <h1 class="kss-doc-title"><a href="./">網頁樣式</a></h1>
+            <h1 class="kss-doc-title"><a href="index.html">網頁樣式</a></h1>
           </header>
           <nav class="kss-nav">
             <ul class="kss-menu" data-kss-ref="1">
               <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">使用說明</span></a></li>
               
-              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">按鈕</span></a></li>
+              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">按鈕(Button)</span></a></li>
               
             </ul>
             
@@ -33,7 +33,15 @@
               
               
               
-              <li class="kss-menu-item"><a href="#section-1.1"><span class="kss-ref">1.1</span><span class="kss-name">狀態按鈕2</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.1"><span class="kss-ref">1.1</span><span class="kss-name">預設 (Default)</span></a></li>
+              
+              
+              
+              <li class="kss-menu-item"><a href="#section-1.2"><span class="kss-ref">1.2</span><span class="kss-name">點擊(active)</span></a></li>
+              
+              
+              
+              <li class="kss-menu-item"><a href="#section-1.3"><span class="kss-ref">1.3</span><span class="kss-name">無法點擊(disabled)</span></a></li>
               
               
             </ul>
@@ -46,12 +54,11 @@
           
           
           <section id="section-1" class="kss-section kss-depth-1">
-            <h1 class="kss-title"><span class="kss-ref">1</span> 按鈕</h1>
+            <h1 class="kss-title"><span class="kss-ref">1</span> 按鈕(Button)</h1>
             
             
             <div class="kss-description">
-              <p>Button styles can be applied to anything with the <code>.btn</code> class applied.
-However, typically you&apos;ll want to apply these to only <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code> elements for the best rendering.</p>
+              <p>按鈕支援：<code>&lt;a&gt;</code>、<code>&lt;button&gt;</code>、<code>&lt;input type=&quot;button&quot;&gt;</code></p>
 
             </div>
             
@@ -59,7 +66,7 @@ However, typically you&apos;ll want to apply these to only <code>&lt;a&gt;</code
           </section>
           
           <section id="section-1.1" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">1.1</span> 狀態按鈕2</h1>
+            <h1 class="kss-title"><span class="kss-ref">1.1</span> 預設 (Default)</h1>
             
             
             <div class="kss-modifier-block">
@@ -68,23 +75,102 @@ However, typically you&apos;ll want to apply these to only <code>&lt;a&gt;</code
               
               <div class="kss-modifier">
                 <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.button</div>
+                  <div class="kss-modifier-name">.pure-button</div>
                   <div class="kss-modifier-description">
-                    <p>Indicate that the button is the primary feature of this form.</p>
-
+                    
                   </div>
                 </div>
                 <div class="kss-modifier-example">
-                  <input type="button" class="btn-default" value="button"/>
-<input type="button" class="btn-primary" value="button"/>
-<input type="button" class="btn-waring" value="button"/>
+                  <input type="button" class="pure-button" value="button"/>
+<input type="button" class="pure-button-primary" value="button"/>
+<input type="button" class="pure-button-success" value="button"/>
+<input type="button" class="pure-button-error" value="button"/>
+<input type="button" class="pure-button-warning" value="button"/>
+<input type="button" class="pure-button-pink" value="button"/>
                 </div>
               </div>
               
               <div class="kss-markup">
-                <pre><code data-language="html">&lt;input type=&quot;button&quot; class=&quot;btn-default&quot; value=&quot;button&quot;/&gt;
-&lt;input type=&quot;button&quot; class=&quot;btn-primary&quot; value=&quot;button&quot;/&gt;
-&lt;input type=&quot;button&quot; class=&quot;btn-waring&quot; value=&quot;button&quot;/&gt;</code></pre>
+                <pre><code data-language="html">&lt;input type=&quot;button&quot; class=&quot;pure-button&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-primary&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-success&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-error&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-warning&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-pink&quot; value=&quot;button&quot;/&gt;</code></pre>
+              </div>
+            </div>
+            
+          </section>
+          
+          <section id="section-1.2" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.2</span> 點擊(active)</h1>
+            
+            
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+              </div>
+              
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.pure-button .active</div>
+                  <div class="kss-modifier-description">
+                    
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <input type="button" class="pure-button active" value="button"/>
+<input type="button" class="pure-button-primary active" value="button"/>
+<input type="button" class="pure-button-success active" value="button"/>
+<input type="button" class="pure-button-error active" value="button"/>
+<input type="button" class="pure-button-warning active" value="button"/>
+<input type="button" class="pure-button-pink active" value="button"/>
+                </div>
+              </div>
+              
+              <div class="kss-markup">
+                <pre><code data-language="html">&lt;input type=&quot;button&quot; class=&quot;pure-button active&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-primary active&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-success active&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-error active&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-warning active&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-pink active&quot; value=&quot;button&quot;/&gt;</code></pre>
+              </div>
+            </div>
+            
+          </section>
+          
+          <section id="section-1.3" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.3</span> 無法點擊(disabled)</h1>
+            
+            
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+              </div>
+              
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.pure-button .disabled</div>
+                  <div class="kss-modifier-description">
+                    
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <input type="button" class="pure-button disabled" value="button"/>
+<input type="button" class="pure-button-primary disabled" value="button"/>
+<input type="button" class="pure-button-success disabled" value="button"/>
+<input type="button" class="pure-button-error disabled" value="button"/>
+<input type="button" class="pure-button-warning disabled" value="button"/>
+<input type="button" class="pure-button-pink disabled" value="button"/>
+                </div>
+              </div>
+              
+              <div class="kss-markup">
+                <pre><code data-language="html">&lt;input type=&quot;button&quot; class=&quot;pure-button disabled&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-primary disabled&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-success disabled&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-error disabled&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-warning disabled&quot; value=&quot;button&quot;/&gt;
+&lt;input type=&quot;button&quot; class=&quot;pure-button-pink disabled&quot; value=&quot;button&quot;/&gt;</code></pre>
               </div>
             </div>
             
